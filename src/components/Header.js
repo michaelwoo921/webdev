@@ -1,18 +1,20 @@
 import React from 'react';
+import Link from './Link';
 
 const Header = () => {
+   
     return(
         <div className="ui pointing menu">
-            <a href="/react" className="active item">
+            <Link href="/webdev/react" className="active item">
                 React
-            </a>
-            <a href="/html-css" className="item">
+            </Link>
+            <Link href="/webdev/html-css" className="item">
                 HTML/CSS
-            </a>
+            </Link>
 
-            <a href="/node" className="item">
+            <Link href="/webdev/node" className="item">
                 Node
-            </a>
+            </Link>
 
         </div>
     );

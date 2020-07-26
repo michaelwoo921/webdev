@@ -13,13 +13,13 @@ const App = () => {
     return(
         <div className="ui container">
             <Header />
-            <Route path='/html-css'>
+            <Route path='/webdev/html-css'>
                 <LearnHtmlCss />
              </Route>
-             <Route path='/react'>
+             <Route path='/webdev/react'>
                 <LearnReact />
              </Route>
-             <Route path='/node'>
+             <Route path='/webdev/node'>
                 <LearnNode/>
              </Route>
 
